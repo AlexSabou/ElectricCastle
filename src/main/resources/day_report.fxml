@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.DayReportFrameController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ListView fx:id="listView" layoutX="14.0" layoutY="68.0" prefHeight="273.0" prefWidth="612.0" />
+            <Label layoutX="293.0" layoutY="34.0" text="Report">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnOk" layoutX="284.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#onOkClicked" prefHeight="35.0" prefWidth="73.0" text="Ok" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
